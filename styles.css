@@ -71,7 +71,7 @@ legend {
 .registrationform select {
     width: auto;
     padding: 1em;
-    border: 1px solid #688dae;
+    border: 1px solid blue;
     background-color: transparent;
 }
 
