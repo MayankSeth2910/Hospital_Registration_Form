@@ -1,0 +1,124 @@
+
+/* Created By Mayank Seth on 6th August 2024 */
+
+
+
+/* Background Image */
+
+body {
+    background: url("/images/Hospital_background_imgg.png") no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+/* Elements */
+
+h1 {
+    text-align: center;
+    margin: 1%;
+}
+
+b {
+    color: blue;
+    font-size: 55px;
+}
+
+span {
+    color: red;
+}
+
+div {
+    align-self: center;
+    border: 3px solid blue;
+    margin: 1%;
+    padding: 1%;
+}
+
+hr {
+    color: blue;
+    height: 1px;
+    background-color: blue;
+}
+
+/* Box Border */
+
+fieldset {
+    border: 3px solid blue;
+    margin: 1%;
+}
+
+legend {
+    color: blue;
+}
+
+/* Form Element */
+
+.registrationform p {
+    display: inline-block;
+    padding-inline-end: 10%;
+
+}
+
+.registrationform label {
+    display: block;
+    color: blue;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.registrationform button,
+.registrationform input,
+.registrationform select {
+    width: auto;
+    padding: 1em;
+    border: 1px solid #688dae;
+    background-color: transparent;
+}
+
+.registrationform input {
+    width: 200px;
+    height: auto;
+}
+
+.registrationform select {
+    width: 229px;
+}
+
+.registrationform button {
+    background: rgb(123, 123, 215);
+    border: 0;
+    width: 15%;
+    font-size: large;
+    padding: 0.5em;
+    margin-left: 10%;
+}
+
+.registrationform #medicalreport,
+.registrationform #insurancedocumnet {
+    background-color: transparent;
+}
+
+/* Number Arrows Removal */
+
+#age,
+#aadharnum,
+#ayushmannum,
+#zipcode,
+#number1,
+#number2,
+#emergencynum,
+#height,
+#weight,
+#physiciannumber {
+    -webkit-appearance: textfield;
+}
+
+
+
+/* © 2024 Mayank Seth. All rights reserved.
+
+This code is the intellectual property of Mayank Seth. It is protected by copyright law. Unauthorized copying, distribution, modification, or use of this code, in whole or in part, is strictly prohibited.
+
+Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
